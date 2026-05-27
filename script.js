@@ -15,5 +15,5 @@ const multiply = function(array) {
 };
 
 const divide = function(array) {
-	return array.reduce((total, current) => total * current);
+	return array.reduce((total, current) => total / current);
 };
