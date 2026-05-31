@@ -17,3 +17,8 @@ const multiply = function(array) {
 const divide = function(array) {
 	return array.reduce((total, current) => total / current);
 };
+
+let firstNumber;
+let secondNumber;
+const plusOperator = ' + ';
+
