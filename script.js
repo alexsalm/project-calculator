@@ -36,3 +36,8 @@ const operate = function(num1, num2, operator) {
 		console.log(divide([firstNumber, secondNumber]));
 	}
 };
+
+const calculatorDiv = document.querySelector(".calculator-body");
+let numberOnScreen = document.createElement("h1");
+numberOnScreen.textContent = "21";
+calculatorDiv.appendChild(numberOnScreen);
