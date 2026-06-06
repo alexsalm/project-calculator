@@ -1,3 +1,7 @@
 .calculator-body {
     background-color: #000000;
+    color: white;
+    display: flex;
+    justify-content: right;
+    padding-right: 20px;
 }
