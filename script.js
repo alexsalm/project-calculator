@@ -38,6 +38,11 @@ const operate = function(num1, num2, operator) {
 };
 
 const calculatorDiv = document.querySelector(".calculator-body");
+
 let numberOnScreen = document.createElement("h1");
 numberOnScreen.textContent = "21";
+
+let buttonsContainer = document.createElement("div");
+
 calculatorDiv.appendChild(numberOnScreen);
+calculatorDiv.appendChild(buttonsContainer);
