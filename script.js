@@ -37,7 +37,7 @@ const operate = function(num1, num2, operator) {
 	}
 };
 
-const calculatorDiv = document.querySelector(".calculator-display");
+const calculatorDisplay = document.querySelector(".calculator-display");
 
 let numberOnScreen = document.createElement("h1");
 numberOnScreen.textContent = "21";
@@ -60,8 +60,8 @@ let row5 = document.createElement("div");
 row5.className = "row-5";
 
 
-calculatorDiv.appendChild(numberOnScreen);
-calculatorDiv.appendChild(buttonsContainer);
+calculatorDisplay.appendChild(numberOnScreen);
+calculatorDisplay.appendChild(buttonsContainer);
 
 buttonsContainer.appendChild(row1);
 buttonsContainer.appendChild(row2);
