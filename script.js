@@ -62,10 +62,6 @@ row4.className = "row-4";
 const row5 = document.createElement("div");
 row5.className = "row-5";
 
-
-
-calculatorDisplay.appendChild(buttonsContainer);
-
 buttonsContainer.appendChild(row1);
 buttonsContainer.appendChild(row2);
 buttonsContainer.appendChild(row3);
