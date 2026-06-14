@@ -2,6 +2,10 @@ body {
     background-color: beige;
 }
 
+.calculator-case {
+    height: 400px;
+}
+
 .calculator-display {
     background-color: #000000;
     color: lightgreen;
