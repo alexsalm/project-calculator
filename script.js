@@ -39,25 +39,25 @@ const operate = function(num1, num2, operator) {
 
 const calculatorDisplay = document.querySelector(".calculator-display");
 
-let numberOnScreen = document.createElement("h1");
+const numberOnScreen = document.createElement("h1");
 numberOnScreen.textContent = "21";
 
-let buttonsContainer = document.createElement("div");
+const buttonsContainer = document.createElement("div");
 buttonsContainer.className = "buttons-container";
 
-let row1 = document.createElement("div");
+const row1 = document.createElement("div");
 row1.className = "row-1";
 
-let row2 = document.createElement("div");
+const row2 = document.createElement("div");
 row2.className = "row-2";
 
-let row3 = document.createElement("div");
+const row3 = document.createElement("div");
 row3.className = "row-3";
 
-let row4 = document.createElement("div");
+const row4 = document.createElement("div");
 row4.className = "row-4";
 
-let row5 = document.createElement("div");
+const row5 = document.createElement("div");
 row5.className = "row-5";
 
 
