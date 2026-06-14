@@ -1,3 +1,7 @@
+body {
+    background-color: beige;
+}
+
 .calculator-display {
     background-color: #000000;
     color: lightgreen;
@@ -7,6 +11,3 @@
     padding-right: 20px;
 }
 
-body {
-    background-color: beige;
-}
