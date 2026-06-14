@@ -43,6 +43,7 @@ let numberOnScreen = document.createElement("h1");
 numberOnScreen.textContent = "21";
 
 let buttonsContainer = document.createElement("div");
+buttonsContainer.className = "buttons-container";
 
 let row1 = document.createElement("div");
 row1.className = "row-1";
