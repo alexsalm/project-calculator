@@ -42,6 +42,8 @@ const calculatorDisplay = document.querySelector(".calculator-display");
 const numberOnScreen = document.createElement("h1");
 numberOnScreen.textContent = "21";
 
+calculatorDisplay.appendChild(numberOnScreen);
+
 const buttonsContainer = document.createElement("div");
 buttonsContainer.className = "buttons-container";
 
@@ -61,7 +63,7 @@ const row5 = document.createElement("div");
 row5.className = "row-5";
 
 
-calculatorDisplay.appendChild(numberOnScreen);
+
 calculatorDisplay.appendChild(buttonsContainer);
 
 buttonsContainer.appendChild(row1);
