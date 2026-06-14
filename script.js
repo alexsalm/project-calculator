@@ -37,7 +37,7 @@ const operate = function(num1, num2, operator) {
 	}
 };
 
-const calculatorDiv = document.querySelector(".calculator-body");
+const calculatorDiv = document.querySelector(".calculator-display");
 
 let numberOnScreen = document.createElement("h1");
 numberOnScreen.textContent = "21";
