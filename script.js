@@ -78,6 +78,6 @@ const row3Number2 = document.createElement("p");
 const row3Number3 = document.createElement("p");
 
 const row4Number0 = document.createElement("p");
-const row4Number00 = document.createElement("p");
+const row4DoubleZeros = document.createElement("p");
 const row4Decimal = document.createElement("p");
 
