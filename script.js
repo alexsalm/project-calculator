@@ -81,3 +81,36 @@ const row4Number0 = document.createElement("p");
 const row4DoubleZeros = document.createElement("p");
 const row4Decimal = document.createElement("p");
 
+row1Number7.textContent = "7";
+row1Number8.textContent = "8";
+row1Number9.textContent = "9";
+
+row2Number4.textContent = "4";
+row2Number5.textContent = "5";
+row2Number6.textContent = "6";
+
+row3Number1.textContent = "1";
+row3Number2.textContent = "2";
+row3Number3.textContent = "3";
+
+row4Number0.textContent = "0";
+row4DoubleZeros.textContent = "00";
+row4Decimal.textContent = ".";
+
+row1.appendChild(row1Number7);
+row1.appendChild(row1Number8);
+row1.appendChild(row1Number9);
+
+row2.appendChild(row2Number4);
+row2.appendChild(row2Number5);
+row2.appendChild(row2Number6);
+
+row3.appendChild(row3Number1);
+row3.appendChild(row3Number2);
+row3.appendChild(row3Number3);
+
+row4.appendChild(row4Number0);
+row4.appendChild(row4DoubleZeros);
+row4.appendChild(row4Decimal);
+
+
