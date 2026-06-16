@@ -64,3 +64,20 @@ buttonsContainer.appendChild(row1);
 buttonsContainer.appendChild(row2);
 buttonsContainer.appendChild(row3);
 buttonsContainer.appendChild(row4);
+
+const row1Number7 = document.createElement("p");
+const row1Number8 = document.createElement("p");
+const row1Number9 = document.createElement("p");
+
+const row2Number4 = document.createElement("p");
+const row2Number5 = document.createElement("p");
+const row2Number6 = document.createElement("p");
+
+const row3Number1 = document.createElement("p");
+const row3Number2 = document.createElement("p");
+const row3Number3 = document.createElement("p");
+
+const row4Number0 = document.createElement("p");
+const row4Number00 = document.createElement("p");
+const row4Decimal = document.createElement("p");
+
