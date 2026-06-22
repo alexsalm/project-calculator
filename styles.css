@@ -46,3 +46,27 @@ body {
     flex-direction: row;
     gap: 70px;
 }
+
+.row1Elements {
+    border: 5px solid #000000;
+    display: flex;
+    padding: 30px;
+}
+
+.row2Elements {
+    border: 5px solid #000000;
+    display: flex;
+    padding: 30px;
+}
+
+.row3Elements {
+    border: 5px solid #000000;
+    display: flex;
+    padding: 30px;
+}
+
+.row4Elements {
+    border: 5px solid #000000;
+    display: flex;
+    padding: 30px;
+}
