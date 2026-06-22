@@ -66,20 +66,40 @@ buttonsContainer.appendChild(row3);
 buttonsContainer.appendChild(row4);
 
 const row1Number7 = document.createElement("p");
+row1Number7.id = 'row1Number7';
+
 const row1Number8 = document.createElement("p");
+row1Number8.id = 'row1Number8';
+
 const row1Number9 = document.createElement("p");
+row1Number9.id = 'row1Number9';
 
 const row2Number4 = document.createElement("p");
+row2Number4.id = 'row2Number4';
+
 const row2Number5 = document.createElement("p");
+row2Number5.id = 'row2Number5';
+
 const row2Number6 = document.createElement("p");
+row2Number6.id = 'row2Number6';
 
 const row3Number1 = document.createElement("p");
+row3Number1.id = 'row3Number1';
+
 const row3Number2 = document.createElement("p");
+row3Number2.id = 'row3Number2';
+
 const row3Number3 = document.createElement("p");
+row3Number3.id = 'row3Number3';
 
 const row4Number0 = document.createElement("p");
+row4Number0.id = 'row4Number0';
+
 const row4DoubleZeros = document.createElement("p");
+row4DoubleZeros.id = 'row4DoubleZeros';
+
 const row4Decimal = document.createElement("p");
+row4Decimal.id = 'row4Decimal';
 
 row1Number7.textContent = "7";
 row1Number8.textContent = "8";
