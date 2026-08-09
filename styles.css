@@ -54,6 +54,12 @@ body {
     gap: 70px;
 }
 
+.row0Elements {
+    border: 5px solid #000000;
+    display: flex;
+    padding: 30px;
+}
+
 .row1Elements {
     border: 5px solid #000000;
     display: flex;
