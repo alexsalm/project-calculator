@@ -130,6 +130,10 @@ row3Number3.textContent = "3";
 row4Number0.textContent = "0";
 row4Decimal.textContent = ".";
 
+row0.appendChild(row0AllClear);
+row0.appendChild(row0PlusMinus);
+row0.appendChild(row0Percent);
+
 row1.appendChild(row1Number7);
 row1.appendChild(row1Number8);
 row1.appendChild(row1Number9);
