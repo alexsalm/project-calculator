@@ -95,9 +95,6 @@ row3Number3.className = 'row3Elements';
 const row4Number0 = document.createElement("p");
 row4Number0.className = 'row4Elements';
 
-const row4DoubleZeros = document.createElement("p");
-row4DoubleZeros.className = 'row4Elements';
-
 const row4Decimal = document.createElement("p");
 row4Decimal.className = 'row4Elements';
 
@@ -114,7 +111,6 @@ row3Number2.textContent = "2";
 row3Number3.textContent = "3";
 
 row4Number0.textContent = "0";
-row4DoubleZeros.textContent = "00";
 row4Decimal.textContent = ".";
 
 row1.appendChild(row1Number7);
@@ -130,7 +126,6 @@ row3.appendChild(row3Number2);
 row3.appendChild(row3Number3);
 
 row4.appendChild(row4Number0);
-row4.appendChild(row4DoubleZeros);
 row4.appendChild(row4Decimal);
 
 
