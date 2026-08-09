@@ -48,6 +48,9 @@ calculatorDisplay.appendChild(numberOnScreen);
 
 const buttonsContainer = document.querySelector(".buttons-container");
 
+const row0 = document.createElement("div");
+row0.className = "row-0";
+
 const row1 = document.createElement("div");
 row1.className = "row-1";
 
@@ -60,6 +63,7 @@ row3.className = "row-3";
 const row4 = document.createElement("div");
 row4.className = "row-4";
 
+buttonsContainer.appendChild(row0);
 buttonsContainer.appendChild(row1);
 buttonsContainer.appendChild(row2);
 buttonsContainer.appendChild(row3);
