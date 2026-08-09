@@ -69,6 +69,15 @@ buttonsContainer.appendChild(row2);
 buttonsContainer.appendChild(row3);
 buttonsContainer.appendChild(row4);
 
+const row0AllClear = document.createElement("p");
+row0AllClear.className = 'row0Elements';
+
+const row0PlusMinus = document.createElement("p");
+row0PlusMinus.className = 'row0Elements';
+
+const row0Percent = document.createElement("p");
+row0Percent.className = 'row0Elements';
+
 const row1Number7 = document.createElement("p");
 row1Number7.className = 'row1Elements';
 
