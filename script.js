@@ -111,6 +111,10 @@ row4Number0.className = 'row4Elements';
 const row4Decimal = document.createElement("p");
 row4Decimal.className = 'row4Elements';
 
+row0AllClear.textContent = "AC";
+row0PlusMinus.textContent = "+/-";
+row0Percent.textContent = "%";
+
 row1Number7.textContent = "7";
 row1Number8.textContent = "8";
 row1Number9.textContent = "9";
