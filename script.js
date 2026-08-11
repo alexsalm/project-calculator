@@ -102,6 +102,9 @@ row2Number5.className = 'row2Elements';
 const row2Number6 = document.createElement("p");
 row2Number6.className = 'row2Elements';
 
+const row2Minus = document.createElement("p");
+row2Minus.className = 'row2Elements';
+
 const row3Number1 = document.createElement("p");
 row3Number1.className = 'row3Elements';
 
@@ -130,6 +133,7 @@ row1Multiply.textContent = "X";
 row2Number4.textContent = "4";
 row2Number5.textContent = "5";
 row2Number6.textContent = "6";
+row2Minus.textContent = "-";
 
 row3Number1.textContent = "1";
 row3Number2.textContent = "2";
@@ -151,6 +155,7 @@ row1.appendChild(row1Multiply);
 row2.appendChild(row2Number4);
 row2.appendChild(row2Number5);
 row2.appendChild(row2Number6);
+row2.appendChild(row2Minus);
 
 row3.appendChild(row3Number1);
 row3.appendChild(row3Number2);
