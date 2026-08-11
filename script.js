@@ -123,6 +123,9 @@ row4Number0.className = 'row4Elements';
 const row4Decimal = document.createElement("p");
 row4Decimal.className = 'row4Elements';
 
+const row4Equals = document.createElement("p");
+row4Equals.className = 'row4Elements';
+
 row0AllClear.textContent = "AC";
 row0PlusMinus.textContent = "+/-";
 row0Percent.textContent = "%";
@@ -145,6 +148,7 @@ row3Plus.textContent = "+";
 
 row4Number0.textContent = "0";
 row4Decimal.textContent = ".";
+row4Equals.textContent = "=";
 
 row0.appendChild(row0AllClear);
 row0.appendChild(row0PlusMinus);
@@ -168,5 +172,6 @@ row3.appendChild(row3Plus);
 
 row4.appendChild(row4Number0);
 row4.appendChild(row4Decimal);
+row4.appendChild(row4Equals);
 
 
