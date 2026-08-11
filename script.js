@@ -114,6 +114,9 @@ row3Number2.className = 'row3Elements';
 const row3Number3 = document.createElement("p");
 row3Number3.className = 'row3Elements';
 
+const row3Plus = document.createElement("p");
+row3Plus.className = 'row3Elements';
+
 const row4Number0 = document.createElement("p");
 row4Number0.className = 'row4Elements';
 
@@ -138,6 +141,7 @@ row2Minus.textContent = "-";
 row3Number1.textContent = "1";
 row3Number2.textContent = "2";
 row3Number3.textContent = "3";
+row3Plus.textContent = "+";
 
 row4Number0.textContent = "0";
 row4Decimal.textContent = ".";
@@ -160,6 +164,7 @@ row2.appendChild(row2Minus);
 row3.appendChild(row3Number1);
 row3.appendChild(row3Number2);
 row3.appendChild(row3Number3);
+row3.appendChild(row3Plus);
 
 row4.appendChild(row4Number0);
 row4.appendChild(row4Decimal);
