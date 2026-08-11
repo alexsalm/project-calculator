@@ -90,6 +90,9 @@ row1Number8.className = 'row1Elements';
 const row1Number9 = document.createElement("p");
 row1Number9.className = 'row1Elements';
 
+const row1Multiply = document.createElement("p");
+row1Multiply.className = 'row1Elements';
+
 const row2Number4 = document.createElement("p");
 row2Number4.className = 'row2Elements';
 
@@ -122,6 +125,7 @@ row0Divide.textContent = "/";
 row1Number7.textContent = "7";
 row1Number8.textContent = "8";
 row1Number9.textContent = "9";
+row1Multiply.textContent = "X";
 
 row2Number4.textContent = "4";
 row2Number5.textContent = "5";
@@ -142,6 +146,7 @@ row0.appendChild(row0Divide);
 row1.appendChild(row1Number7);
 row1.appendChild(row1Number8);
 row1.appendChild(row1Number9);
+row1.appendChild(row1Multiply);
 
 row2.appendChild(row2Number4);
 row2.appendChild(row2Number5);
