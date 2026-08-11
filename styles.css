@@ -47,7 +47,6 @@ body {
 .row-4 {
     display: flex;
     flex-direction: row;
-    gap: 70px;
 }
 
 .row0Elements {
