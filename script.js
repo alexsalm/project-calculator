@@ -78,6 +78,9 @@ row0PlusMinus.className = 'row0Elements';
 const row0Percent = document.createElement("p");
 row0Percent.className = 'row0Elements';
 
+const row0Divide = document.createElement("p");
+row0Divide.className = 'row0Elements';
+
 const row1Number7 = document.createElement("p");
 row1Number7.className = 'row1Elements';
 
@@ -114,6 +117,7 @@ row4Decimal.className = 'row4Elements';
 row0AllClear.textContent = "AC";
 row0PlusMinus.textContent = "+/-";
 row0Percent.textContent = "%";
+row0Divide.textContent = "/";
 
 row1Number7.textContent = "7";
 row1Number8.textContent = "8";
@@ -133,6 +137,7 @@ row4Decimal.textContent = ".";
 row0.appendChild(row0AllClear);
 row0.appendChild(row0PlusMinus);
 row0.appendChild(row0Percent);
+row0.appendChild(row0Divide);
 
 row1.appendChild(row1Number7);
 row1.appendChild(row1Number8);
