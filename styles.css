@@ -78,3 +78,10 @@ body {
     display: flex;
     padding: 30px;
 }
+
+.orangeElements {
+    background-color: orange;
+    border: 5px solid orange;
+    display: flex;
+    padding: 30px;
+}

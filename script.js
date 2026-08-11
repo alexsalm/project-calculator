@@ -79,7 +79,7 @@ const row0Percent = document.createElement("p");
 row0Percent.className = 'row0Elements';
 
 const row0Divide = document.createElement("p");
-row0Divide.className = 'row0Elements';
+row0Divide.className = 'orangeElements';
 
 const row1Number7 = document.createElement("p");
 row1Number7.className = 'row1Elements';
@@ -91,7 +91,7 @@ const row1Number9 = document.createElement("p");
 row1Number9.className = 'row1Elements';
 
 const row1Multiply = document.createElement("p");
-row1Multiply.className = 'row1Elements';
+row1Multiply.className = 'orangeElements';
 
 const row2Number4 = document.createElement("p");
 row2Number4.className = 'row2Elements';
@@ -103,7 +103,7 @@ const row2Number6 = document.createElement("p");
 row2Number6.className = 'row2Elements';
 
 const row2Minus = document.createElement("p");
-row2Minus.className = 'row2Elements';
+row2Minus.className = 'orangeElements';
 
 const row3Number1 = document.createElement("p");
 row3Number1.className = 'row3Elements';
@@ -115,7 +115,7 @@ const row3Number3 = document.createElement("p");
 row3Number3.className = 'row3Elements';
 
 const row3Plus = document.createElement("p");
-row3Plus.className = 'row3Elements';
+row3Plus.className = 'orangeElements';
 
 const row4Number0 = document.createElement("p");
 row4Number0.className = 'row4Elements';
@@ -124,7 +124,7 @@ const row4Decimal = document.createElement("p");
 row4Decimal.className = 'row4Elements';
 
 const row4Equals = document.createElement("p");
-row4Equals.className = 'row4Elements';
+row4Equals.className = 'orangeElements';
 
 row0AllClear.textContent = "AC";
 row0PlusMinus.textContent = "+/-";
