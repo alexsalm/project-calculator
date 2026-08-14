@@ -9,6 +9,7 @@ body {
 .calculator-display {
     background-color: #000000;
     color: lightgreen;
+    font-size: 30px;
     text-shadow: 2px 2px 5px lightgreen;
     display: flex;
     justify-content: right;
